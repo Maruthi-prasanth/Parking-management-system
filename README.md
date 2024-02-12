@@ -1,5 +1,3 @@
-# Parking-management system
- Parking management system emphasises all the abilities of an regular parking facilities in outside world.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +41,16 @@
             list-style-type: square;
             margin-bottom: 20px;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #d6d8db;
+            padding: 8px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -50,6 +58,16 @@
 # Advanced Parking Management System
 
 This Parking Management System is a console-based application written in C, designed to efficiently handle parking operations for cars, bikes, and autos. The system incorporates features such as vehicle parking, fee collection, receipt generation, and insightful displays of parked vehicles and earnings.
+
+## Table of Contents
+
+- [Features](#features)
+- [Vehicle Fees](#vehicle-fees)
+- [How to Use](#how-to-use)
+  - [Compile and Run](#compile-and-run)
+  - [Main Menu](#main-menu)
+- [Advanced Usage](#advanced-usage)
+- [Notes](#notes)
 
 ## Features
 
@@ -67,7 +85,12 @@ This Parking Management System is a console-based application written in C, desi
 
 ## How to Use
 
+### Compile and Run
+
 1. **Compile and Run:** Use a C compiler to compile the code and execute the compiled executable.
+
+### Main Menu
+
 2. **Main Menu:**
     - **Option 1: Park Your Vehicle**
         - Choose the type of vehicle and input customer details.
